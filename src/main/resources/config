@@ -1,0 +1,14 @@
+#tank count at initialization
+initTankCount=10
+tankSpeed=5
+bulletSpeed=10
+gameWidth=800
+gameHeight=600
+initTankX=200
+initTankY=400
+numOfExplodes=16
+#fireStrategy
+goodFS=com.mashibing.tank.strategy.DefaultFireStrategy
+badFS=com.mashibing.tank.strategy.DefaultFireStrategy
+#colliders
+colliders=com.mashibing.tank.cor.BulletTankCollider,com.mashibing.tank.cor.TankTankCollider,com.mashibing.tank.cor.BulletWallCollider,com.mashibing.tank.cor.TankWallCollider
