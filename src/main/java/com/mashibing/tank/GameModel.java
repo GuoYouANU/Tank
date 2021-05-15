@@ -82,7 +82,7 @@ public class GameModel {
         }
     }
 
-    public BaseTank getMainTank() {
-        return myTank;
+    public Tank getMainTank() {
+        return (Tank) myTank;
     }
 }
